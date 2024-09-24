@@ -1,0 +1,114 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color:#ffff;
+}
+nav .logo img{
+    object-fit: contain;
+    max-width: 12%;
+
+}
+nav {
+    display: flex;
+    padding: 0 10px;
+    justify-content: space-between;
+   
+}
+nav .action{
+    display: flex;
+    margin: 10px 20px;
+}
+nav .action .signup{
+    background-color: #e50914;
+    padding: 2px 4px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #ffff;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600px;
+    margin: 0 10px;
+    
+}
+nav .action .signup:hover{
+    background-color: #a3a3a3;
+    color: #181818;
+    transition: 0.5ms;
+}
+nav .action .login{
+    background-color: transparent;
+    color: #ffff;
+    padding: 2px 4px;
+    border: 2px solid #ffff;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #ffff;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600px;
+    margin: 0 10px;
+
+}
+nav .action .login:hover{
+    background-color: #a3a3a3;
+    color: #181818;
+    transition: 0.5ms;
+
+}
+.banner{
+   /* background: linear-gradient(90deg, #181818 10%, hsla(0, 0%, 9%, .98) 20%, hsla(0, 0%, 9%, .97) 25%, hsla(0, 0%, 9%, .95) 35%, hsla(0, 0%, 9%, .94) 40%, hsla(0, 0%, 9%, .92) 45%, hsla(0, 0%, 9%, .9) 50%, hsla(0, 0%, 9%, .87) 55%, hsla(0, 0%, 9%, .82) 60%, hsla(0, 0%, 9%, .75) 65%, hsla(0, 0%, 9%, .63) 70%, hsla(0, 0%, 9%, .45) 75%, hsla(0, 0%, 9%, .27) 80%, hsla(0, 0%, 9%, .15) 85%, hsla(0, 0%, 9%, .08) 90%, hsla(0, 0%, 9%, .03) 95%, hsla(0, 0%, 9%, 0))*/
+   background:linear-gradient(90deg, #181818 10%, hsla(0, 0%, 9%, .98) 10%, hsla(0, 0%, 9%, .97) 15%, hsla(0, 0%, 9%, .95) 25%, hsla(0, 0%, 9%, .94) 20%, hsla(0, 0%, 9%, .92) 45%, hsla(0, 0%, 9%, .9) 50%, hsla(0, 0%, 9%, .87) 55%, hsla(0, 0%, 9%, .82) 60%, hsla(0, 0%, 9%, .75) 65%, hsla(0, 0%, 9%, .63) 70%, hsla(0, 0%, 9%, .45) 75%, hsla(0, 0%, 9%, .27) 80%, hsla(0, 0%, 9%, .15) 85%, hsla(0, 0%, 9%, .08) 90%, hsla(0, 0%, 9%, .03) 95%, hsla(0, 0%, 9%, 0))
+   ,url("https://occ-0-3215-3662.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABXsQBkrCfwEomiuVvM7_AhvssD-PUBTkbIaiNvmI8YpE7RJ7vYE3phxyrrrWXba_ZmKkz7mpEqirIDYRE7935vA04HfQ41bFZCa_.jpg?r=1f1&quot");
+   background-size:cover ;
+    background-position: center center;
+     background-repeat: no-repeat;
+    max-width: 100%;
+    height: 700px;
+}
+.bannercontent
+.bannertittle img{
+    object-fit: contain;
+    max-width: 50%;
+}
+.bannercontent{
+    padding: 15% 32% 64% 2.5%;
+}
+.bannercontent .bannertittle h1{
+    font-size:30px ;
+    padding: 10px 0px;
+}
+.bannercontent .bannertittle h3{
+    color: #a3a3a3;
+    font-size:15px ;
+    font-weight: 300;
+
+}
+.bannercontent .bannertittle span{
+    padding: 0 5px;
+}
+.bannercontent .bannertittle .user1{
+     padding: 2.5px 5px;
+    border: 2px solid#a3a3a3;
+
+}
+p{
+    max-width: 50%;
+    padding:10px 0px ;
+}
+.bannercontent .bannertittle .user2{
+    color: #a3a3a3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-right: 5px;
+}
+
+
+
+
